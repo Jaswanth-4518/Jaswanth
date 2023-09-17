@@ -1,0 +1,75 @@
+	body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url(https://c1.wallpaperflare.com/preview/294/960/948/university-student-graduation-photo-hats.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.container
+{
+	width: 50%;
+	display: flex;
+    align-items: center;
+	height: 720px;
+}
+
+.indexbox{
+	width: 320px;
+	height: 350px;
+	padding:30px 30px;
+	box-sizing: border-box;
+	background-image: url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG9naW4lMjBwYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+	margin: 0 auto;
+	left:30px;
+	background-repeat: no-repeat;
+	background-position:relative;
+}
+
+h2{
+ 	top:-20%;
+	margin: 0 auto;
+	padding: 0 0 40px;
+	color:#0d0e0e;
+ 	font-size:22px;
+ }
+ 
+.indexbox button
+{
+	width: 100%;
+	margin-bottom: 40px;
+}
+ 
+.button1{
+	position: realtive;
+  	align: center;
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 64%;
+	color: #fff;
+	font-size: 18px;
+	background: #090adc;
+	cursor: pointer;
+	border-radius: 20px;	
+}
+ 
+.button1:hover{
+	color: #262626;
+	background: #04e4e4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: larger;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}

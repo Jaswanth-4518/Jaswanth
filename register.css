@@ -1,0 +1,81 @@
+	body{
+	margin: 0;
+	padding: 0;
+	font-family:sans-serif;
+	background-image: url(https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=1060&t=st=1694439237~exp=1694439837~hmac=d5a0d52afd72e7336d1e7c41c8ba2644e19c189ed75af29a7db477783015861d);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container
+{
+	width: 50%;
+	display: flex;
+    align-items: center;
+	height: 720px;
+}
+
+.registerbox{
+	width: 320px;
+	height: auto;
+	box-sizing: border-box;
+	padding: 30px 30px;
+	background-image: url(https://img.freepik.com/free-vector/cerulean-blue-curve-frame-template-vector_53876-136094.jpg?w=360&t=st=1694439144~exp=1694439744~hmac=4ed9c4d14db77e063c936a8cc0ed3ca3b2a4b60e394e355bdb5c038f4703258e);
+	margin:0 auto;
+}
+
+h2{
+	top: 0%;
+	margin: 0 auto;
+	padding: 0 0 30px;
+	color:#010f0f;
+ 	font-size:22px; 
+}
+h3{
+	position:relative;
+	margin :0 auto;
+	color: #ff2929;
+	font-size: 16px;
+	padding: 0 0 20px;
+}
+.registerbox input{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.registerbox input[type="text"],.registerbox input[type="password"]
+{
+	position: relative;
+	border: none;
+	outline: none;
+	height: 30px;
+	border-bottom: 1px solid #808080;
+	color: black;
+	background: transparent;
+	font-size:16px;
+}
+
+::placeholder
+{
+	font-size:16px;
+	color: #808080;
+}
+
+.registerbox input[type="submit"]
+{
+	margin: 0 25px;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	color: #fff;
+	background: #090adc;
+	height: 40px;
+	width: 80%;
+	font-size:18px;
+	cursor: pointer;
+}
+.registerbox input[type="submit"]:hover
+{
+	background: #04e4e4;
+	color: #262626;
+}
